@@ -1,6 +1,17 @@
 ## pycbc_lisa_inference
 pycbc with tools for inference 
 
+If all of the packeges below are installed properly, just running the command 
+
+`sh pycbc_inf_run_test` 
+
+should produce an hdf file containing the inference data. This data can then 
+be plotted using 
+
+`sh inf_plot_code`
+
+You can rename the output files, plot setting etc by tweaking the bash scripts. 
+
 # Files 
 
 *A_TDI.gwf* - Frame file of the A TDI data found in the Sangria MBHB dataset
