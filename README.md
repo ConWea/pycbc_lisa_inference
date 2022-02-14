@@ -1,6 +1,31 @@
 ## pycbc_lisa_inference
 pycbc with tools for inference 
 
+#Files 
+
+*A_TDI.gwf* - Frame file of the A TDI data found in the Sangria MBHB dataset
+(linked below). The script used to generate this file can be uploaded on request. 
+
+*psd_inf_file.txt* - PSD file generated from the A_TDI.gwf data. This file 
+is given to `pycbc.inference` in the config files to use instead of
+generating its own. Again, the script used to generate this can be 
+supplied if needed.
+
+*MBHB_params.pkl* - List containing all 15 signals found in the Sangria 
+MBHB dataset (linked below).
+
+*configs/...*
+
+1.*inf_confs.ipynb* - Notebook that reads in the MBHB data from *MBHB_params.pkl*.
+Can control which parameters are used by changing the **s_index** vaule from 
+0-14. You need to run this (when you have decided on your parameters) as it 
+produces the seperate config files needed for `pycbc_inference`. 
+
+2.*pycbc_inf_run_test* - Bash script that runs the configs defined from 
+*inf_confs.ipynb*. Will produce a hdf file when completed. 
+
+3.*inf_plot_code* - Bash script that plots the data defined in the 
+hdf file produced from *pycbc_inf_run_test*.
 
 # Downloads
 
