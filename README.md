@@ -14,18 +14,18 @@ You can rename the output files, plot setting etc by tweaking the bash scripts.
 
 # Files 
 
-*A_TDI.gwf* - Frame file of the A TDI data found in the Sangria MBHB dataset
+- *A_TDI.gwf* - Frame file of the A TDI data found in the Sangria MBHB dataset
 (linked below). The script used to generate this file can be uploaded on request. 
 
-*psd_inf_file.txt* - PSD file generated from the A_TDI.gwf data. This file 
+- *psd_inf_file.txt* - PSD file generated from the A_TDI.gwf data. This file 
 is given to `pycbc.inference` in the config files to use instead of
 generating its own. Again, the script used to generate this can be 
 supplied if needed.
 
-*MBHB_params.pkl* - List containing all 15 signals found in the Sangria 
+- *MBHB_params.pkl* - List containing all 15 signals found in the Sangria 
 MBHB dataset (linked below).
 
-*configs/...*
+- *configs/...*
 
 1.*inf_confs.ipynb* - Notebook that reads in the MBHB data from *MBHB_params.pkl*.
 Can control which parameters are used by changing the **s_index** vaule from 
