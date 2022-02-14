@@ -1,11 +1,13 @@
 ## pycbc_lisa_inference
 pycbc with tools for inference 
 
-If all of the packeges below are installed properly, just running the command 
+If all of the packeges below are installed properly, you will need to run the
+notebook *inf_confs.ipynb* to generate the config files for inference to use.
+You can then run
 
 `sh pycbc_inf_run_test` 
 
-should produce an hdf file containing the inference data. This data can then 
+which should produce an hdf file containing the inference data. This data can then 
 be plotted using 
 
 `sh inf_plot_code`
