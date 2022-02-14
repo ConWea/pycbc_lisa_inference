@@ -1,0 +1,7 @@
+#!/bin/sh
+pycbc_inference --verbose \
+   --config-files model_debug-config.ini data_debug-config.ini sampler_debug-config.ini \
+   --output-file inference_mass1_test.hdf \
+   --seed 3214897 \
+   --nprocesses 30 \
+   --force   
