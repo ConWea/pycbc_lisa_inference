@@ -19,7 +19,9 @@ MBHB dataset (linked below).
 1.*inf_confs.ipynb* - Notebook that reads in the MBHB data from *MBHB_params.pkl*.
 Can control which parameters are used by changing the **s_index** vaule from 
 0-14. You need to run this (when you have decided on your parameters) as it 
-produces the seperate config files needed for `pycbc_inference`. 
+produces the seperate config files needed for `pycbc_inference`. You will 
+have to edit the `path` variable at the beginning of the notebook to 
+point to the directory containing the *MBHB_params.pkl* file. 
 
 2.*pycbc_inf_run_test* - Bash script that runs the configs defined from 
 *inf_confs.ipynb*. Will produce a hdf file when completed. 
