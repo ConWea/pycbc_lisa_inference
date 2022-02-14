@@ -1,7 +1,7 @@
 ## pycbc_lisa_inference
 pycbc with tools for inference 
 
-#Files 
+# Files 
 
 *A_TDI.gwf* - Frame file of the A TDI data found in the Sangria MBHB dataset
 (linked below). The script used to generate this file can be uploaded on request. 
@@ -47,6 +47,8 @@ To start you will need to install the following in your VE:
   make sure you change to the branch **lisa_changes** and install pycbc
   in the standard way.
 
+Some standard errors I get when setting up this VE can often be solved updating 
+both `numpy` and `cython` to the most recent versions. 
 
 # Comments
 
