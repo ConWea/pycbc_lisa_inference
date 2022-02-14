@@ -60,6 +60,14 @@ To start you will need to install the following in your VE:
   make sure you change to the branch **lisa_changes** and install pycbc
   in the standard way.
 
+3. LDC:
+
+  https://gitlab.in2p3.fr/LISA/LDC
+
+  Currently there is only one function needed from this repo but you may
+  wish to have the LDC functionality for importing the data and 
+  generating frame files yourself.
+
 Some standard errors I get when setting up this VE can often be solved updating 
 both `numpy` and `cython` to the most recent versions. 
 
